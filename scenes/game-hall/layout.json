@@ -115,7 +115,6 @@
       { "m": "ken-market/freezer-chest", "at": [-3.5, 5.41], "rot": 180 },
       { "m": "isa-picnic/radio", "at": [-3.5, 5.4], "y": 0.33, "rot": 160 },
       { "m": "sq-cinema/concession-counter", "at": [-4.55, 5.515], "rot": 180 },
-      { "m": "sq-cinema/soda-tower", "at": [-4.8, 5.52], "y": 0.46, "rot": 180 },
       { "m": "isa-bakery/cash-register", "at": [-4.3, 5.52], "y": 0.46, "rot": 180 },
       { "m": "isa-park/trashcan", "at": [-5.4, 5.4] },
       { "m": "ken-station/table", "at": [-4.1, 3.7] },
