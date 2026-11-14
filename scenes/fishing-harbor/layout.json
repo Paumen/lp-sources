@@ -1,87 +1,25 @@
 {
-  "water": {"from": [-5, -1.3], "to": [5, 4.5], "cell": [4, 2], "tone": 0.7},
+  "water": {"from": [-5.4, -5.6], "to": [5.6, 3.8], "cell": [4, 2], "tone": [0.35, 0.85]},
   "zones": {
-    "quay": [
-      {"m": "fs-town/cobblestone-floor-a", "at": [-4.25, -3.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-3.25, -3.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-2.25, -3.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-1.25, -3.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-0.25, -3.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [0.75, -3.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [1.75, -3.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [2.75, -3.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [3.75, -3.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [4.75, -3.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-4.25, -2.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-3.25, -2.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-2.25, -2.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-1.25, -2.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-0.25, -2.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [0.75, -2.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [1.75, -2.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [2.75, -2.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [3.75, -2.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [4.75, -2.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-4.25, -1.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-3.25, -1.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-2.25, -1.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-1.25, -1.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [-0.25, -1.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [0.75, -1.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [1.75, -1.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [2.75, -1.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [3.75, -1.75], "y": 0.336},
-      {"m": "fs-town/cobblestone-floor-a", "at": [4.75, -1.75], "y": 0.336}
+    "shore": [
+      {"m": "ken-survival/rock-flat-grass", "at": [-3.2, -3.9], "y": -0.03, "rot": 10},
+      {"m": "ken-survival/rock-flat-grass", "at": [-0.9, -4.1], "y": -0.07, "rot": 185},
+      {"m": "ken-survival/rock-flat", "at": [1.6, -4.0], "y": -0.11, "rot": -8},
+      {"m": "ken-survival/rock-flat-grass", "at": [-3.45, -1.9], "y": -0.09, "rot": 95},
+      {"m": "ken-survival/rock-flat-grass", "at": [3.9, -2.5], "y": -0.05, "rot": 80},
+      {"m": "ken-survival/rock-flat", "at": [4.1, -3.4], "y": 0.2, "rot": 20},
+      {"m": "taalei-kit/lighthouse", "at": [4.1, -3.4], "y": 0.45, "rot": -30},
+      {"m": "fs-town/boat-b", "at": [-3.6, -1.5], "y": 0.08, "rot": 35},
+      {"m": "fs-terrain/hilly-prop-tree-pine-b", "at": [-3.8, -4.3], "y": 0.33},
+      {"m": "fs-terrain/hilly-prop-tree-pine-c", "at": [-2.7, -4.7], "y": 0.33, "rot": 70}
     ],
-    "wall": [
-      {"m": "emace-village/stone-footing", "at": [-3.8, -0.74], "y": -0.05},
-      {"m": "emace-village/stone-footing", "at": [-1.9, -0.74], "y": -0.05},
-      {"m": "emace-village/stone-footing", "at": [0, -0.74], "y": -0.05},
-      {"m": "emace-village/stone-footing", "at": [1.9, -0.74], "y": -0.05},
-      {"m": "emace-village/stone-footing", "at": [3.8, -0.74], "y": -0.05, "rot": 180}
-    ],
-    "jetty": [
-      {"m": "wizp-fish/jetty-a", "at": [0, 1.15], "y": -0.7},
-      {"m": "wizp-fish/stilt-cabin", "at": [-3.9, 0.78], "y": -0.7},
-      {"m": "kay-tools/rope-bundle-a", "at": [0.25, 0.3], "y": 0.3},
-      {"m": "emace-village/pail", "at": [-0.25, 2.2], "y": 0.3},
-      {"m": "avra-food/fish", "at": [0.15, 2.35], "y": 0.3, "rot": 40}
+    "port": [
+      {"m": "quat-town/port-2-b", "at": [0, 0], "y": -0.5}
     ],
     "water": [
-      {"m": "ken-water/boat-fishing-small", "at": [1.4, 1.5], "y": -0.12},
-      {"m": "wizp-fish/boat-oars", "at": [-1.35, 1.6], "y": -0.08},
-      {"m": "wizp-fish/boat-rack", "at": [-3.7, 3.3], "y": -0.08, "rot": 90},
-      {"m": "fs-town/boat-a", "at": [2.6, 0.15], "y": -0.23, "rot": 90},
-      {"m": "wizp-fish/boat-poles", "at": [3.7, 2.5], "y": -0.08, "rot": 25},
-      {"m": "ken-water/buoy", "at": [-1.3, 3.9], "y": -0.12},
-      {"m": "ken-water/buoy-flag", "at": [1.9, 3.9], "y": -0.12}
-    ],
-    "props": [
-      {"m": "taalei-kit/lighthouse", "at": [3.9, -2.75], "y": 0.3},
-      {"m": "rgp-medieval/stall", "at": [-0.9, -3.3], "y": 0.3},
-      {"m": "rgp-medieval/crate-open", "at": [-0.1, -3.3], "y": 0.3},
-      {"m": "emace-village/basket-lidded", "at": [-1.7, -3.4], "y": 0.3},
-      {"m": "rgp-medieval/fish-rack", "at": [-3.7, -3.3], "y": 0.3, "rot": 90},
-      {"m": "rgp-medieval/fish-rack", "at": [-2.6, -3.3], "y": 0.3, "rot": 90},
-      {"m": "wizp-asia/net", "at": [-4.4, -2.0], "y": 0.3, "rot": 90},
-      {"m": "rgp-medieval/barrel", "at": [1.5, -3.5], "y": 0.3},
-      {"m": "rgp-medieval/barrel", "at": [1.92, -3.45], "y": 0.3, "rot": 40},
-      {"m": "rgp-medieval/barrel", "at": [1.7, -3.08], "y": 0.3, "rot": 110},
-      {"m": "emace-village/crate", "at": [2.5, -3.4], "y": 0.3},
-      {"m": "emace-village/crate", "at": [0.9, -3.5], "y": 0.3, "rot": 15},
-      {"m": "ken-town/lantern", "at": [-1.0, -1.25], "y": 0.3},
-      {"m": "ken-town/lantern", "at": [1.0, -1.25], "y": 0.3},
-      {"m": "wizp-fish/mooring-post", "at": [-4.6, -1.2], "y": 0.3},
-      {"m": "wizp-fish/mooring-post", "at": [-2.6, -1.2], "y": 0.3},
-      {"m": "wizp-fish/mooring-post", "at": [2.3, -1.2], "y": 0.3},
-      {"m": "wizp-fish/mooring-post", "at": [4.6, -1.2], "y": 0.3},
-      {"m": "rgp-medieval/bench", "at": [3.3, -1.45], "y": 0.3},
-      {"m": "taalei-kit/lifebuoy", "at": [-1.6, -1.45], "y": 0.3},
-      {"m": "m3-base/anchor-01", "at": [2.85, -2.2], "y": 0.3, "rot": -25},
-      {"m": "rgp-medieval/barrel-open", "at": [1.75, -1.5], "y": 0.3},
-      {"m": "rgp-medieval/crate-open", "at": [2.3, -1.75], "y": 0.3, "rot": 80},
-      {"m": "emace-village/sack-open", "at": [-2.2, -1.5], "y": 0.3, "rot": 20},
-      {"m": "quat-ocean/crab", "at": [0.4, -2.2], "y": 0.3, "rot": 200}
+      {"m": "ken-water/boat-fishing-small", "at": [0.3, 1.3], "y": -0.12},
+      {"m": "wizp-fish/boat-oars", "at": [-2.0, 1.4], "y": -0.02, "rot": 8},
+      {"m": "ken-water/buoy", "at": [3.6, 2.4], "y": -0.12}
     ]
   }
 }
